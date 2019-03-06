@@ -32,3 +32,15 @@ PRODUCT_COPY_FILES += \
 # WiFi Calibration
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/wifi/bcmdhd.cal:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd.cal
+
+# Extra packages required for MicroG
+PRODUCT_PACKAGES += \
+    additional_repos \
+    FakeStore \
+    FDroid \
+    FDroidPrivilegedExtension \
+    GmsCore \
+    GsfProxy \
+    MozillaNlpBackend \
+    NominatimNlpBackend \
+    OpenWeatherMapWeatherProvider \
