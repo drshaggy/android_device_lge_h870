@@ -35,12 +35,9 @@ PRODUCT_COPY_FILES += \
 
 # Extra packages required for MicroG
 PRODUCT_PACKAGES += \
-    additional_repos \
     FakeStore \
-    FDroid \
-    FDroidPrivilegedExtension \
     GmsCore \
     GsfProxy \
-    MozillaNlpBackend \
-    NominatimNlpBackend \
-    OpenWeatherMapWeatherProvider \
+    IchnaeaNlpBackend \
+    NominatimGeocoderBackend \
+    UnifiedNlp \
